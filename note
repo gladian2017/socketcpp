@@ -1,0 +1,12 @@
+1- in main.cppQcuiApplication app(argc, argv); type:
+                qmlRegisterType< class name >("monty", 1, 0,"Qml code name" )
+2-in qml file import monty package
+        add a class object by the name of registerd one
+
+
+
+all Items in QML file shall to start with capitall letter( in qmlRegisterType<>("",x,x,"A..."))
+
+to let qml file access to C++ function it should be defined in public slots
+
+Q_property should be defined WRITE for setfunction

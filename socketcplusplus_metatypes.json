@@ -1,0 +1,46 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Sockett",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "name": "ipp",
+                        "read": "IPred",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "connect"
+                    }
+                ],
+                "qualifiedClassName": "Sockett",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "connect",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "Sockett.h",
+        "outputRevision": 67
+    }
+]
